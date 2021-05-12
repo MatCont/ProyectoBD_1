@@ -22,9 +22,9 @@ typedef enum { TypeInt = 0, TypeReal, TypeVarChar } AttrType;
 typedef unsigned AttrLength;
 
 struct Attribute {
-    string   name;     // attribute name
-    AttrType type;     // attribute type
-    AttrLength length; // attribute length
+    string   name;     // nombre del atributo o campo
+    AttrType type;     // tipo del atributo o campo
+    AttrLength length; // tamaño del atributo o campo
 };
 
 
