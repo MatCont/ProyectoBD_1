@@ -386,9 +386,8 @@ RC RecordBasedFileManager::findRecordSlot(FileHandle &fileHandle, PageNum pagenu
 RC RecordBasedFileManager::insertRecord(FileHandle &fileHandle, const vector<Attribute> &recordDescriptor, const void *data, RID &rid) {
 
     /*******************************************************
-     *********        AGREGAR CODIGO AQUI       ************
-     *******************************************************/
-
+     *********        AGREGAR CODIGO AQUI       ***************************************************************/
+    //prueba
     return -1;
 }
 
